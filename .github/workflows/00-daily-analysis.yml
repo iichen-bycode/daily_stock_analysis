@@ -248,7 +248,7 @@ jobs:
           # ==========================================
           # 搜索服务
           # ==========================================
-          ANSPIRE_API_KEYS: ${{ secrets.ANSPIRE_API_KEYS }} 
+          ANSPIRE_API_KEYS: ${{ sk-xxwv4dXS94xhog8p8K2ZyzzoYmjVEOBT }} 
           ANSPIRE_LLM_MODEL: ${{ vars.ANSPIRE_LLM_MODEL || secrets.ANSPIRE_LLM_MODEL }}
           ANSPIRE_LLM_BASE_URL: ${{ vars.ANSPIRE_LLM_BASE_URL || secrets.ANSPIRE_LLM_BASE_URL }}
           ANSPIRE_LLM_ENABLED: ${{ vars.ANSPIRE_LLM_ENABLED || secrets.ANSPIRE_LLM_ENABLED }}
